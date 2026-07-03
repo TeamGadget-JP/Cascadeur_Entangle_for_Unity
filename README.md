@@ -1,11 +1,7 @@
 # 日本語 #
-# Cascadeur Entangle for Unity (CEU)
+# Cascadeur Entangle for Unity (CEU) βテスト<br>
 
-
----
-
-## GECBの主要機能
-
+# GECBの主要機能
 1. CascadeurとBlenderをシームレスに繋ぐリアルタイム同期。
 2. BlenderのObject Mode / Pose Modeに関係なく同期可能。
 3. Blender側でタイムライン・アニメーションを再生している最中でも同期可能。  
