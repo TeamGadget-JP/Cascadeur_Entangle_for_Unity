@@ -1,3 +1,72 @@
+# English <br>
+# Cascadeur Entangle for Unity (CEU) Beta Test<br>
+CEU is the successor to the previous version, "Gadget Entangle for Cascadeur (GEC)".<br>
+While inheriting the core functionality of GEC, CEU has been significantly refined and improved.<br>
+
+# CEU Overview<br>
+1. Real-time synchronization<br>
+2. Rig-agnostic synchronization<br>
+3. Editor Mode synchronization / Play Mode synchronization<br>
+4. Simultaneous synchronization of multiple characters<br>
+5. UI removed and integrated into the Inspector<br>
+6. Improved robustness by assigning a dedicated local port to each character<br>
+8. Supports motions with root bone movement<br>
+9. Body-part Lerp implementation<br>
+10. Hybrid system with iClone facial animation<br>
+11. Prop transfer and synchronization (currently under development)<br>
+
+# What is Rig-Agnostic Synchronization? (Verification Stage)<br>
+By dynamically handshaking the bone hierarchy and bone names from Unity to Cascadeur,<br>
+the goal is to eliminate retargeting work as much as possible. In theory, any character that can be imported into Unity and Cascadeur and successfully rigged should be able to synchronize.<br>
+Whether it is a humanoid, quadruped, mechanical character, multi-legged creature, monster, or any other character that can be rigged in Cascadeur,<br>
+it is expected that almost all of them can be synchronized.<br>
+
+# Local Port Assignment <br>
+8900 Reserved for the system<br>
+8901 Character 1<br>
+8902 Character 2<br>
+・<br>
+・<br>
+8909 Reserved for prop transfer and synchronization<br>
+
+# Installation <br>
+1. Place `CEU_Sender_v1.pyc` into the Cascadeur Python plugin folder.<br>
+   `[Cascadeur Installation Folder]\resources\scripts\python\commands\`<br>
+2. Create any folder in your Unity project, then drag and drop `CEU_System.cs` and `CEU_Avatar.cs` into it.<br>
+
+# Usage <br>
+Step 1: Import the same character into both Unity and Cascadeur.<br>
+Step 2: In Cascadeur, select `Commands -> CEU_Sender_v1` to start communication.<br>
+Step 3: In Unity, create an empty GameObject in the Hierarchy and attach `CEU_System.cs`.<br>
+Step 4: Attach `CEU_Avatar.cs` to the character you want to synchronize.<br>
+Step 5: In the Inspector of the GameObject with `CEU_System.cs`, enable the `Connect To Cascadeur` toggle.<br>
+That's all.<br>
+
+# If Synchronization Does Not Work <br>
+1. Is the Target Port number correct?<br>
+2. Characters using port 8901 do not use a prefix, so leave `Cascadeur Prefix` empty.<br>
+3. Starting from port 8902, enter `character1:`, `character2:`, etc. into `Cascadeur Prefix`.<br>
+4. Try switching `Rig Type` between `Humanoid` and `Generic`.<br>
+5. Always start synchronization from Cascadeur first, then Unity.<br>
+
+# Setting Up Multiple Characters in Cascadeur<br>
+Example: Setting up two characters<br>
+1. Create a scene, then import and rig the first character as usual.<br>
+2. Create another scene for the second character. Import and rig the second character as usual.<br>
+3. Save and close the scene containing the second character.<br>
+4. Return to the first character's scene, then select `File -> Import -> Import Scene To Current...` and import the second scene.<br>
+5. The second character's bone names will automatically receive the `character1:` prefix.<br>
+6. The third character can be added in the same way.<br>
+
+Team Gadget YouTube<br>
+https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw<br>
+
+# Disclaimer <br>
+CEU is an independent project developed by Team Gadget.<br>
+Cascadeur is a trademark and/or property of Nekki.<br>
+Unity is a trademark and/or property of Unity Technologies Inc.<br>
+This project is not an official product of Nekki or Unity Technologies Inc., and is not endorsed by, affiliated with, sponsored by, or officially supported by either company.<br>
+
 # 日本語 <br>
 # Cascadeur Entangle for Unity (CEU) βテスト<br>
 CEUは前作"Gadget Entangle for Cascadeur (GEC)"の後継バージョンになります。<br>
