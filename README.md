@@ -72,6 +72,14 @@ This project is not an official product of Nekki or Unity Technologies Inc., and
 CEUは前作"Gadget Entangle for Cascadeur (GEC)"の後継バージョンになります。<br>
 基本的な機能全般はGECを継承しつつ、大幅にブラッシュアップを施しました。<br>
 
+# 開発・動作環境<br>
+Windows専用 (コード内でWindowsAPIを使用)<br>
+Unity6.5<br>
+エディターバージョン : 6000.5.1f1<br>
+レンダーパイプライン : URP<br>
+
+CascadeurPro 2026.1.3<br>
+
 # CEUの概要<br>
 1. リアルタイム同期<br>
 2. リグ・アグノスティック同期<br>
