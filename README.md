@@ -3,6 +3,13 @@
 CEU is the successor to the previous version, "Gadget Entangle for Cascadeur (GEC)".<br>
 While inheriting the core functionality of GEC, CEU has been significantly refined and improved.<br>
 
+# Development Environment / System Requirements<br>
+Windows only (uses Windows API internally)<br>
+Unity 6.5<br>
+Editor Version: 6000.5.1f1<br>
+Render Pipeline: URP<br>
+Cascadeur Pro 2026.1.3<br>
+
 # CEU Overview<br>
 1. Real-time synchronization<br>
 2. Rig-agnostic synchronization<br>
@@ -77,7 +84,6 @@ Windows専用 (コード内でWindowsAPIを使用)<br>
 Unity6.5<br>
 エディターバージョン : 6000.5.1f1<br>
 レンダーパイプライン : URP<br>
-
 CascadeurPro 2026.1.3<br>
 
 # CEUの概要<br>
