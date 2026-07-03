@@ -1,5 +1,5 @@
 # 日本語 <br>
-# Cascadeur Entangle for Unity (CEU) βテスト #<br>
+# Cascadeur Entangle for Unity (CEU) βテスト<br>
 CEUは前作"Gadget Entangle for Cascadeur (GEC)"の後継バージョンになります。<br>
 基本的な機能全般はGECを継承しつつ、大幅にブラッシュアップを施しました。<br>
 
