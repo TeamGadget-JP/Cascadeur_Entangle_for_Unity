@@ -39,14 +39,14 @@ it is expected that almost all of them can be synchronized.<br>
 # Installation <br>
 1. Place `CEU_Sender_v1.pyc` into the Cascadeur Python plugin folder.<br>
    `[Cascadeur Installation Folder]\resources\scripts\python\commands\`<br>
-2. Create any folder in your Unity project, then drag and drop `CEU_System.cs` and `CEU_Avatar.cs` into it.<br>
+2. Create any folder in your Unity project, then drag and drop `CEU_System_v1.cs` and `CEU_Avatar_v1.cs``CEU_Prop_v1.cs` into it.<br>
 
 # Usage <br>
 Step 1: Import the same character into both Unity and Cascadeur.<br>
 Step 2: In Cascadeur, select `Commands -> CEU_Sender_v1` to start communication.<br>
-Step 3: In Unity, create an empty GameObject in the Hierarchy and attach `CEU_System.cs`.<br>
-Step 4: Attach `CEU_Avatar.cs` to the character you want to synchronize.<br>
-Step 5: In the Inspector of the GameObject with `CEU_System.cs`, enable the `Connect To Cascadeur` toggle.<br>
+Step 3: In Unity, create an empty GameObject in the Hierarchy and attach `CEU_System_v1.cs`.<br>
+Step 4: Attach `CEU_Avatar_v1.cs` to the character you want to synchronize.<br>
+Step 5: In the Inspector of the GameObject with `CEU_System_v1.cs`, enable the `Connect To Cascadeur` toggle.<br>
 That's all.<br>
 
 # If Synchronization Does Not Work <br>
@@ -116,14 +116,14 @@ Unityから動的にボーン階層・名称をCascadeurとハンドシェイク
 # 導入手順 <br>
 1. `CEU_Sender_v1.pyc`をCascadeurのPythonプラグインフォルダに配置します。<br>
    `[Cascadeurインストール先]\resources\scripts\python\commands\`<br>
-2. `CEU_System.cs``CEU_Avatar.cs`をUntyのProjectに任意のフォルダーを作り、ドラッグ・アンド・ドロップ<br>
+2. `CEU_System_v1.cs``CEU_Avatar_v1.cs``CEU_Prop_v1.cs`をUntyのProjectに任意のフォルダーを作り、ドラッグ・アンド・ドロップ<br>
 
 # 使用方法 <br>
 step1: 同じキャラクターを双方へインポート<br>
 step2: Cascadeur側`Commands -> CEU_Sender_v1`を選択して通信開始。<br>
-step3: Unity側、ヒエラルキーに空のゲームオブジェクトを作成して`CEU_System.cs`をアタッチ<br>
-step4: Unity側、ヒエラルキー内の同期したいキャラクターに`CEU_Avatar.cs`をアタッチ<br>
-step5: `CEU_System.cs`をアタッチしたゲームオブジェクトのインスペクターで`Connect To Cascadeur`トグルをオン<br>
+step3: Unity側、ヒエラルキーに空のゲームオブジェクトを作成して`CEU_System_v1.cs`をアタッチ<br>
+step4: Unity側、ヒエラルキー内の同期したいキャラクターに`CEU_Avatar_v1.cs`をアタッチ<br>
+step5: `CEU_System_v1.cs`をアタッチしたゲームオブジェクトのインスペクターで`Connect To Cascadeur`トグルをオン<br>
 以上です。<br>
 
 # 同期しない場合 <br>
