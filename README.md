@@ -20,7 +20,7 @@ Cascadeur Pro 2026.1.3<br>
 8. Supports motions with root bone movement<br>
 9. Body-part Lerp implementation<br>
 10. Hybrid system with iClone facial animation<br>
-11. Prop transfer and synchronization (currently under development)<br>
+11. Prop transfer and synchronization<br>
 
 # What is Rig-Agnostic Synchronization? (Verification Stage)<br>
 By dynamically handshaking the bone hierarchy and bone names from Unity to Cascadeur,<br>
@@ -96,7 +96,7 @@ CascadeurPro 2026.1.3<br>
 8. ルートボーン移動を伴うモーションに対応<br>
 9. 部位Lerpの実装<br>
 10. iCloneフェイシャルとのハイブリッドシステム<br>
-11. プロップ転送と同期（現在実装作業中）<br>
+11. プロップ転送と同期<br>
 
 # リグ・アグノスティック同期とは?　（検証段階）<br>
 Unityから動的にボーン階層・名称をCascadeurとハンドシェイクすることにより<br>
