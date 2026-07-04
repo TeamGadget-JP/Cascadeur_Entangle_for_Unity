@@ -39,7 +39,7 @@ it is expected that almost all of them can be synchronized.<br>
 # Installation <br>
 1. Place `CEU_Sender_v1.pyc` into the Cascadeur Python plugin folder.<br>
    `[Cascadeur Installation Folder]\resources\scripts\python\commands\`<br>
-2. Create any folder in your Unity project, then drag and drop `CEU_System_v1.cs` and `CEU_Avatar_v1.cs``CEU_Prop_v1.cs` into it.<br>
+2. Create any folder in your Unity project, then drag and drop `CEU_System_v1.cs` and `CEU_Avatar_v1.cs` and `CEU_Prop_v1.cs` into it.<br>
 
 # Usage <br>
 Step 1: Import the same character into both Unity and Cascadeur.<br>
