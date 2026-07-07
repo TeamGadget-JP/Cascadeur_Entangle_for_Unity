@@ -1,10 +1,10 @@
-TeamGadget Core Architecture
-CEU is powered by the core technologies developed by TeamGadget.
-・Handshake Protocol
-・O(1) Runtime Cache
-・Zero Calibration
-・Smart Swizzle
-These technologies form the foundation of the TeamGadget real-time synchronization architecture.
+# TeamGadget Core Architecture<br>
+CEU is powered by the core technologies developed by TeamGadget.<br>
+・Handshake Protocol<br>
+・O(1) Runtime Cache<br>
+・Zero Calibration<br>
+・Smart Swizzle<br>
+These technologies form the foundation of the TeamGadget real-time synchronization architecture.<br>
 
 # English <br>
 # Cascadeur Entangle for Unity (CEU) Beta Test<br>
