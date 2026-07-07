@@ -1,10 +1,20 @@
-# TeamGadget Core Architecture<br>
-CEU is powered by the core technologies developed by TeamGadget.<br>
-・Handshake Protocol<br>
-・O(1) Runtime Cache<br>
-・Zero Calibration<br>
-・Smart Swizzle<br>
-These technologies form the foundation of the TeamGadget real-time synchronization architecture.<br>
+# TeamGadget Core Architecture
+**A universal real-time synchronization architecture for character animation across multiple DCC applications and game engines.**
+The TeamGadget Core Architecture is a lightweight synchronization framework designed for real-time communication between independent animation applications.
+Rather than relying on complex rig-specific solutions, TeamGadget focuses on four fundamental technologies that maximize performance, reliability, and interoperability while minimizing setup and runtime overhead.
+## Core Technologies
+### Handshake Protocol
+Automatic initialization and synchronization of character information before streaming begins.
+### O(1) Runtime Cache
+Constant-time bone lookup for high-performance real-time synchronization.
+### Zero Calibration
+Automatic normalization of local transforms to establish a common reference space between different applications.
+### Smart Swizzle
+Automatic correction of coordinate-system differences using rest-pose quaternion analysis, enabling rig-agnostic synchronization without manual axis configuration.
+
+---
+
+These four technologies form the foundation shared by every TeamGadget synchronization project, including GEC, GECB, CEU, CEB, and future tools.
 
 # English <br>
 # Cascadeur Entangle for Unity (CEU) Beta Test<br>
