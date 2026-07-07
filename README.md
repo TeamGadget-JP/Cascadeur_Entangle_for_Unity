@@ -1,3 +1,11 @@
+TeamGadget Core Architecture
+CEU is powered by the core technologies developed by TeamGadget.
+・Handshake Protocol
+・O(1) Runtime Cache
+・Zero Calibration
+・Smart Swizzle
+These technologies form the foundation of the TeamGadget real-time synchronization architecture.
+
 # English <br>
 # Cascadeur Entangle for Unity (CEU) Beta Test<br>
 CEU is the successor to the previous version, "Gadget Entangle for Cascadeur (GEC)".<br>
